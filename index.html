@@ -9,23 +9,84 @@
 	<link rel="icon" type="image/ico" href="assets/images/trivia.ico">
 </head>
 <body>
-	<h1 id="jq-test"></h1>
+	<div id="main-container"></div>
+		<!-- <h1 id="jq-test"></h1> -->
+		<h1 id="game-title">Totally Trivial Trivia!</h1>
 
+		<button type="button" id="start-button" onclick="gameStart()">Start</button>
 
+		<div id="game-play-container">
 
+		<p>Time Remaining: <span id="time-remaining">30</span></p>
 
+		
+		<form id="play1" class="playForm">
+		<h3 id="quesiton1">What was the first full length CGI movie?</h3>
+			<input type="radio" name="answer1" value="a">A Bug's Life
+			<input type="radio" name="answer1" value="b">Monsters Inc.
+			<input type="radio" name="answer1" value="c">Toy Story
+			<input type="radio" name="answer1" value="d">Lion King
+		</form>
 
+		<form id="play2" class="playForm">
+		<h3 id="quesiton2">Which of these is NOT a name of one of the Spice Girls?</h3>
+			<input type="radio" name="answer2" value="a">Sporty Spice
+			<input type="radio" name="answer2" value="b">Fred Spice
+			<input type="radio" name="answer2" value="c">Scary Spice
+			<input type="radio" name="answer2" value="d">Posh Spice
+		</form>
 
+		<form id="play3" class="playForm">
+		<h3 id="quesiton3">Which NBA team won the most title in the 90s?</h3>
+			<input type="radio" name="answer3" value="a">New York Knicks
+			<input type="radio" name="answer3" value="b">Portland Trailblazers
+			<input type="radio" name="answer3" value="c">Los Angeles Lakers
+			<input type="radio" name="answer3" value="d">Chicago Bulls
+		</form>
 
+		<form id="play4" class="playForm">
+		<h3 id="quesiton4">Which Group released the hit song, “Smells Like Teen Spirit”?</h3>
+			<input type="radio" name="answer4" value="a">Nirvana
+			<input type="radio" name="answer4" value="b">Backstreet Boys
+			<input type="radio" name="answer4" value="c">The Offspring
+			<input type="radio" name="answer4" value="d">No Doubt
+		</form>
 
+		<form id="play5" class="playForm">
+		<h3 id="quesiton5">Which Popular Disney movie featured the song, “Circle of Life”?</h3>
+			<input type="radio" name="answer5" value="a">Aladdin
+			<input type="radio" name="answer5" value="b">Hercules
+			<input type="radio" name="answer5" value="c">Mulan
+			<input type="radio" name="answer5" value="d">The Lion King
+		</form>
 
+		<form id="play6" class="playForm">
+		<h3 id="quesiton6">Finish this line from the Fresh Prince of Bel-Air theme song: “I whistled for a cab and when it came near, the license plate said…”</h3>
+			<input type="radio" name="answer6" value="a">Dice
+			<input type="radio" name="answer6" value="b">Mirror
+			<input type="radio" name="answer6" value="c">Fresh
+			<input type="radio" name="answer6" value="d">Cab
+		</form>
 
+		<form id="play7" class="playForm">
+		<h3 id="quesiton7">What was Doug’s best friend’s name?</h3>
+			<input type="radio" name="answer7" value="a">Skeeter
+			<input type="radio" name="answer7" value="b">Mark
+			<input type="radio" name="answer7" value="c">Zack
+			<input type="radio" name="answer7" value="d">Cody
+		</form>
 
+		<form id="play8" class="playForm">
+		<h3 id="quesiton8">What was the name of the principal at Bayside High in Saved By The Bell?</h3>
+			<input type="radio" name="answer8" value="a">Mr. Zhou
+			<input type="radio" name="answer8" value="b">Mr. Driggers
+			<input type="radio" name="answer8" value="c">Mr. Belding
+			<input type="radio" name="answer8" value="d">Mr. Page
+		</form>
 
+		</div>
 
-
-
-
+		<button type="button" id="done-button" onclick="gameStop()">Done</button>
 
 
 
